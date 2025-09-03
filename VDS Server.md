@@ -1,9 +1,34 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VDS Server</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#покупка-сервера">Покупка сервера</a></li>
+<li><a href="#настройка-с-нуля">Настройка с нуля</a>
+<ul>
+<li><a href="#первичное-обновление-ос">Первичное обновление ОС</a></li>
+<li><a href="#установка-docker">Установка Docker</a></li>
+<li><a href="#установка-portainer">Установка Portainer</a></li>
+<li><a href="#установите-wireguard">Установите WireGuard</a></li>
+</ul>
+</li>
+</ul>
 
-<h1 id="покупка-сервера">Покупка сервера</h1>
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="покупка-сервера">Покупка сервера</h1>
 <h1 id="настройка-с-нуля">Настройка с нуля</h1>
 <h2 id="первичное-обновление-ос">Первичное обновление ОС</h2>
 <p>Установите все обновления Ubuntu. Выполните команды:</p>
@@ -99,3 +124,8 @@ portainer/portainer-ce:lts
 <p>sudo apt update<br>
 sudo apt install wireguard</p>
 
+    </div>
+  </div>
+</body>
+
+</html>
